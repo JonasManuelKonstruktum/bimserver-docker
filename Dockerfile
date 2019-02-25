@@ -4,7 +4,7 @@ MAINTAINER Jonas Manuel
 
 ENV TOMCAT_HOME /usr/local/tomcat
 ENV BIMSERVER_APP $TOMCAT_HOME/webapps/bimserver
-ENV VERSION 1.5.117
+ENV VERSION 1.5.125
 
 # Delete the example Tomcat app to speed up deployment.
 RUN rm -rf $TOMCAT_HOME/webapps/examples
